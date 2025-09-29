@@ -17,10 +17,10 @@ A small backend service that fetches time-series weather data from Open-Meteo AP
 ## Endpoints
 
 
--- Clone the repository
+**Clone the repository**
 
-git clone https://github.com/tellavenkatesh/weather-service.git
-cd weather-service
+--git clone https://github.com/tellavenkatesh/weather-service.git
+--cd weather-service
 
 
 **Create a virtual environment**
