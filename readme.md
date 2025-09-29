@@ -18,10 +18,10 @@ A small backend service that fetches time-series weather data from Open-Meteo AP
 
 
 ** To Run **
-git clone https://github.com/tellavenkatesh/weather-service.git
-cd weather-service
-pip install -r requirements.txt
-uvicorn app:app --reload
+- git clone https://github.com/tellavenkatesh/weather-service.git
+- cd weather-service
+- pip install -r requirements.txt
+- uvicorn app:app --reload
 
 
 1. **Fetch & store weather data**
