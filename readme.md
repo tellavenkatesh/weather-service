@@ -17,3 +17,13 @@ A small backend service that fetches time-series weather data from Open-Meteo AP
 ## Endpoints
 
 1. **Fetch & store weather data**
+Example:
+GET /weather-report?lat={latitude}&lon={longitude}
+http://127.0.0.1:8000/weather-report?lat=47.37&lon=8.55
+
+2. **Export Excel**
+GET /export/excel
+http://127.0.0.1:8000/export/excel
+3. **Export PDF**
+GET /export/pdf
+http://127.0.0.1:8000/export/pdf
