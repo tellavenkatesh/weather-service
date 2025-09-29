@@ -17,11 +17,28 @@ A small backend service that fetches time-series weather data from Open-Meteo AP
 ## Endpoints
 
 
-** To Run **
-- git clone https://github.com/tellavenkatesh/weather-service.git
-- cd weather-service
-- pip install -r requirements.txt
-- uvicorn app:app --reload
+-- Clone the repository
+
+git clone https://github.com/tellavenkatesh/weather-service.git
+cd weather-service
+
+
+**Create a virtual environment**
+
+python -m venv venv
+
+venv\Scripts\activate
+
+
+
+**Install dependencies**
+
+pip install -r requirements.txt
+
+
+**Run the FastAPI app**
+
+uvicorn app:app --reload
 
 
 1. **Fetch & store weather data**
